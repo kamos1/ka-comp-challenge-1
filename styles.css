@@ -1,7 +1,8 @@
 html,body {
-  font-family: sans-serif;
   color: #FFFFFF;
+  font-family: sans-serif;
   height: 100%;
+  /*margin: 0;*/
 }
 
 .container1 {
@@ -19,7 +20,6 @@ html,body {
 
 .more-pics-icon {
   float: right;
-  display: block;
 }
 
 .left-nav-icon {
@@ -82,11 +82,11 @@ html,body {
 
 button {
   background: #38648D;
-  color: #FFFFFF;
   border: thin solid #FFFFFF;
+  color: #FFFFFF;
   font-size: .6em;
-  padding: 10px 0px;
   margin: 5px auto;
+  padding: 10px 0px;
 }
 
 span {
@@ -109,10 +109,10 @@ span {
 }
 
 .box-icons {
-  height: 100px;
+  height: 75px;
   padding-top: 16px;
-  width: 100%;
   vertical-align: middle;
+  width: 100%;
 }
 
 .box-icon-text {
@@ -200,9 +200,9 @@ background: #85B4EA;
 
   .name-box-headline {
     font-size: 1.2em;
-    padding-left: 20px;
     margin-bottom: 20px;
     margin-top: 10%;
+    padding-left: 20px;
     text-align: left;
   }
 
@@ -221,8 +221,8 @@ background: #85B4EA;
 
   button {
     font-size: .6em;
-    padding: 10px 0px;
     margin-top: 5px;
+    padding: 10px 0px;
   }
 
   .resume-button {
@@ -233,6 +233,10 @@ background: #85B4EA;
   .name-box-icon {
     filter: invert(100);
     width: 15%;
+  }
+
+  .box-icons {
+    padding-top: 35px;
   }
 
   #name-box {
