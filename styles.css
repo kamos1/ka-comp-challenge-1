@@ -1,0 +1,244 @@
+html,body {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.container1 {
+  background-image: url(images/dog.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35%;
+  width: 100%;
+}
+
+.icons {
+  filter: invert(100);
+}
+
+.more-pics-icon {
+  float: right;
+  display: block;
+}
+
+.left-nav-icon {
+  float: left;
+  position: relative;
+  top: 50%;
+}
+
+.right-nav-icon {
+  float: right;
+  left: 12%;
+  position: relative;
+  top: 50%;
+}
+
+.pic-nav-icons {
+  filter: invert(100) opacity(50%);
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-boxes {
+  width: 100%;
+}
+
+.name-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.boxes {
+  width: 100%;
+}
+
+#name-box {
+  background-color: #38648D;
+}
+
+.name-box-headline {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 6px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.name-box-text {
+  text-align: center;
+}
+
+.name-box-buttons {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  background: #38648D;
+  color: #FFFFFF;
+  border: thin solid #FFFFFF;
+  font-size: .6em;
+  padding: 10px 0px;
+  margin: 5px auto;
+}
+
+span {
+  font-weight: 600;
+}
+
+.resume-button {
+  margin-left: 4%;
+  margin-right: 3%;
+}
+
+.name-box-icon {
+  filter: invert(100);
+  width: 15%;
+}
+
+
+#profile-box {
+  background: #50A8C4;
+}
+
+.box-icons {
+  height: 100px;
+  padding-top: 16px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.box-icon-text {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#experience-box {
+  background: #85B4EA;
+}
+
+#education-box {
+  background: #AABADE;
+}
+
+#blog-box {
+  background: #022552;
+}
+
+#social-menu-box {
+  background: #50A8C4;
+}
+
+#contact-box {
+  background: #38648D;
+}
+
+#portfolio-box {
+background: #85B4EA;
+}
+
+
+@media screen and (min-width: 500px) {
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container1 {
+    height: 100%;
+  }
+
+  .right-nav-icon {
+    left: 6%;
+  }
+
+  .boxes {
+    width: 50%
+  }
+
+  .name-box-headline {
+    font-size: 1.5em;
+    margin-bottom: 24px;
+    margin-top: 25px;
+  }
+
+  .name-box-text {
+    font-size: .9em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .container1 {
+    width: 75%;
+  }
+
+  .right-nav-icon {
+    left: 9%;
+  }
+
+  .boxes {
+    width: 33.33%;
+  }
+
+  .name-box-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .name-box-headline {
+    font-size: 1.2em;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    text-align: left;
+  }
+
+  .name-box-text {
+    font-size: 1em;
+    font-weight: 100;
+    margin: 5px 0;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .name-box-buttons {
+    font-weight: 300;
+    text-align: left;
+  }
+
+  button {
+    font-size: .6em;
+    padding: 10px 0px;
+    margin-top: 5px;
+  }
+
+  .resume-button {
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+
+  .name-box-icon {
+    filter: invert(100);
+    width: 15%;
+  }
+
+  #name-box {
+    flex: 2;
+  }
+
+  #profile-box {
+    flex: 1;
+  }
